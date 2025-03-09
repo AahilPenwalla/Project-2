@@ -23,6 +23,7 @@ nav {
   text-align: center;
   padding: 1rem 0;
   margin-bottom: 20px;
+  border-bottom: 3px solid #f4a261;
 }
 nav ul {
   list-style: none;
@@ -30,18 +31,22 @@ nav ul {
   justify-content: center;
   gap: 20px;
   padding: 0;
+  margin: 0;
 }
 nav ul li {
   display: inline;
+  list-style: none;
 }
 nav ul li a {
+  display: block;
   text-decoration: none;
   color: white;
   font-size: 1.2rem;
   font-weight: bold;
-  padding: 10px 15px;
+  padding: 15px 20px;
   transition: background 0.3s, color 0.3s;
   border-radius: 5px;
+  background: #444;
 }
 nav ul li a:hover {
   background: #f4a261;
@@ -86,6 +91,10 @@ ul {
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
+  }
+  nav ul li {
+    display: block;
+    text-align: center;
   }
   h1 {
     font-size: 2rem;
