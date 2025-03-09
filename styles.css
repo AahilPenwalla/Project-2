@@ -116,6 +116,38 @@ ul {
   font-size: 1.2rem;
 }
 
+/* AI Page Styling */
+.ai-container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ai-video {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.ai-video video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.ai-image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ai-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   nav ul {
