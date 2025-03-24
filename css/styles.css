@@ -10,7 +10,7 @@
 
 /* Body Styling */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #f4f4f4;
   color: #333;
   line-height: 1.6;
@@ -135,17 +135,4 @@ ul {
   }
 
   .about-section {
-    flex-direction: row;
-    text-align: left;
-  }
-
-  .about-section p {
-    flex: 1;
-  }
-
-  .resume,
-  .about-container,
-  .ai-container {
-    max-width: 900px;
-  }
-}
+    flex-direction
